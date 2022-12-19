@@ -1,3 +1,85 @@
 .App {
   text-align: center;
 }
+
+.cabecalho {
+  font-family: Nunito , sans-serif;
+  color: aliceblue;
+  font-size: 50px;
+  text-align: center;
+}
+
+.planeta {
+  font-family: Nunito , sans-serif;
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Urano, .Netuno {
+  width: 100px;
+}
+
+.Vênus, .Terra {
+  width: 70px;
+}
+
+.Marte {
+  width: 50px;
+}
+
+.Mercúrio {
+  width: 40px;
+}
+
+.Júpiter, .Saturno {
+  width: 170px;
+}
+
+.divPla {
+  display: flex;
+  flex-direction: row;
+}
+
+.nomes {
+  font-family: Nunito , sans-serif;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.Missoes {
+  display: flex;
+  border: 1px snow solid;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 1400px;
+  width: 700px;
+
+}
+
+.divPlaneta {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.MissaoCard {
+  border-radius: 20px;
+  border: 1px snow solid;
+  width: 300px;
+  height: 90px;
+}
+
+.Texto {
+  font-family: Nunito , sans-serif;
+  color: aliceblue;
+  font-size: 15px;
+  text-align: center;
+}
+
+div {
+  background-image: url('./images/background.png');
+}
