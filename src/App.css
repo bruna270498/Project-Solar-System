@@ -13,8 +13,25 @@
   left: 550px;
 }
 
-.missoesTitulo{
+.missoesTitulo {
   color: #FFFFFF;
+  position: absolute;
+width: 159px;
+height: 60px;
+left: 600px;
+top: 630px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 150%;
+/* identical to box height, or 60px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
 
 .planeta {
@@ -192,14 +209,39 @@ top: -18px;
 .Missoes {
   display: flex;
   border: 1px snow solid;
-  border-radius: 20px;
   justify-content: center;
-  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 1400px;
-  width: 700px;
+  width: 1098px;
+  height: 2280px;
+  margin-left: 10%;
+  margin-top: 630px;
+  /* background: #FFFFFF; */
+   /* opacity: 0.1;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.9); */
+  border-radius: 30px;
+}
 
+.divv {
+  border: 1px solid white;
+  width: 1415px;
+  height: 0;
+  top: 400px;
+  position: absolute;
+}
+
+.f {
+  border: 3px solid wheat;
+  width: 280px;
+  height: 95px;
+  position: absolute;
+  top: 30px;
+  left: 550px;
+  border-radius: 50%;
+  transform: matrix(1, 0, 0.01, 1, 0, 0);
+  -ms-transform: skewY(-15deg);
+  -webkit-transform: skewY(-15deg);
+  transform: skewY(-15deg);
 }
 
 .divPlaneta {
@@ -212,21 +254,58 @@ top: -18px;
 }
 
 .MissaoCard {
-  border-radius: 20px;
-  border: 1px snow solid;
-  width: 300px;
-  height: 90px;
+  width: 496px;
+  display: flexbox;
+  height: 150px;
+  margin-left: 24px;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+  color: #FFFFFF;
+  margin-top: 70px;
+  margin-bottom: 0;
 }
 
-.Texto {
-  font-family: ' Epilogue';
-  color: aliceblue;
-  font-size: 15px;
-  text-align: center;
+.Texto1 {
+  font-family: 'Epilogue';
+  font-weight: 300;
+  font-size: 25px;
+  margin-top: 10px;
+  line-height: 120%;
+  margin-left: 30px;
+  display: flex;
+  /* align-items: center; */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.nameCard {
+  border-radius: 10px;
+  width: 493px;
+  height: 70px;
+  border: 1px solid white;
 }
 
 
 div {
   background-image: url('./images/background.png');
   margin: 0;
+}
+
+.infoCard {
+  display: flex;
+  font-family: 'Epilogue';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.Texto2 {
+  margin-left: 30px;
+}
+
+.Texto3 {
+  margin-left: 30px;
 }
