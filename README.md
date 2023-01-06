@@ -37,4 +37,4 @@ Aqui foi desenvolvido um modelo de **Sistema Solar**, onde a pessoa usuária pod
 
 3. Rode o  comando:
 
--```npm start``
+- ```npm start```;
