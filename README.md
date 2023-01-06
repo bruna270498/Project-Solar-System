@@ -20,6 +20,11 @@ Aqui foi desenvolvido um modelo de **Sistema Solar**, onde a pessoa usuária pod
 - Fazer uso de ```props``` corretamente;
 - Fazer uso de ```PropTypes``` para validar como props de um componente.
 
+### Linguagens utlizadas
+
+- JavaScript;
+- CSS;
+
 ### Como executar
 
 1. Clone o repositório:
